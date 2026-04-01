@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>나의 플레이리스트</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background: linear-gradient(
+        
+        #0b021d,
+        #5f0674,
+        #bd5f68,
+        #FF4500
+    );
+   
+    color: #ffe6e6;
+}
+
+
+.playlist-name {
+    color: #FF4500;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px ;
+    
+}
+
+.subtitle {
+    color: #d58f4987;
+    margin-bottom: 5px;
+}
+
+
+.caption {
+    font-size: 15px;
+    color: #cb5470;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    margin: 20px;
+    color: #FF4500;
+}
+
+
+.lyrics-box {
+    padding: 15px;
+    border-left: 5px ;
+}
+
+.highlight {
+    color: #FF4500;
+
+}
+
+
+#charm-list {
+    list-style: none;
+}
+
+#track-table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#track-table th, #track-table td {
+    border: 1px solid #b89c92;
+    padding: 10px;
+    
+}
+
+#track-table tr:nth-child
+
+
+.listen-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #FF4500;
+    color: white;
+    
+}
+
+.listen-btn:hover {
+    background: #ff4500;;
+}
+
+#charm-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+</style>
+
+</head>
+   
+<body>
+
+<header>
+    <h1>저녁노을 감성</h1>
+    <p class="subtitle">빈티지 무드의 나만의 플레이리스트</p>
+</header>
+
+<section>
+    <h2>lyrics</h2>
+    <div class="lyrics-box">
+        <p>오늘은 잊고 지내던 친구에게서 전화가 왔네</p>
+        <p>가을아침 내겐 정말 커다란 기쁨이야</p>
+        <p class="highlight">오직 너와 나 둘이서</p>
+        <p>사건의 지평선 너머로</p>
+        <p>밤이 깊었네</p>
+        <p>안녕 이제 그만 너를 보내야지</p>
+    </div>
+</section>
+
+<section>
+    <h2>point</h2>
+    <ul id="charm-list">
+        <li>잔잔한 위로를 건네는 곡들</li>
+        <li>저녁노을 느낌의 따뜻한 분위기</li>
+        <li>혼자 듣기 좋은 플레이리스트</li>
+    </ul>
+</section>
+
+<section>
+    <h2>playlist</h2>
+    <table id="track-table">
+        <thead>
+            <tr>
+                <th>Track</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>혜화동</td>
+                <td>박보람</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>가을아침</td>
+                <td>아이유</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>야경</td>
+                <td>터치드</td>
+                
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>사건의 지평선</td>
+                <td>윤하</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>밤이 깊었네</td>
+                <td>크라잉 넛</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>습관</td>
+                <td>롤러코스터</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+<a href="https://youtube.com/playlist?list=PLgT2P8jZKD990JFqTBTwlXU7jrTaW-9My&si=9vU_k4Uv8PHU_mLT" target="_blank">
+        <button class="listen-btn">플레이리스트 들으러 가기</button>
+    </a>
+    
+</footer>
+
+</body>
+</html>
